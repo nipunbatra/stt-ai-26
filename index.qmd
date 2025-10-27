@@ -6,6 +6,13 @@ subtitle: "CS 203 | Jan–Apr 2026 | IIT Gandhinagar"
 **Instructor:** Dr. Nipun Batra, Sustainability Lab
 **Credits:** L1.5 T0 P3 C4
 
+::: {.callout-important}
+## 💬 Join the Course Slack Workspace
+
+**[Click here to join CS 203 STT-AI Slack](https://join.slack.com/t/cs203sttai/shared_invite/zt-3gp9iuolx-WSc7fu5vvP2m4dVrN8R4UQ)**
+
+All course announcements, discussions, and updates will be shared on Slack. Please join as soon as possible!
+:::
 
 ## Overview
 
@@ -81,7 +88,7 @@ The course emphasizes **hands-on learning** through labs and practical work, com
 | **Lab Assignments** | **50%** | Weekly/bi-weekly hands-on labs with tools and techniques |
 | **Video + Blog Posts** | **20%** | Document your learning through tutorial videos and blog posts |
 | **Quizzes** | **20%** | Best *n* out of *n+1* quizzes (drop lowest score) |
-| **Attendance** | **6%** | Regular attendance (not surprise-based) |
+| **Attendance** | **6%** | Regular attendance |
 | **Participation** | **4%** | Active engagement in class and on Slack |
 
 ### Assessment Philosophy
@@ -89,7 +96,7 @@ The course emphasizes **hands-on learning** through labs and practical work, com
 - **Labs:** Practical, hands-on work with real tools (Docker, MLFlow, Weights & Biases, etc.)
 - **Video + Blog:** Share knowledge by creating tutorials—learn by teaching!
 - **Quizzes:** Flexible grading—your lowest quiz score is automatically dropped
-- **Attendance:** Transparent 6% for showing up and being present (no surprises!)
+- **Attendance:** 6% for regular class attendance
 
 ## Example Projects
 
@@ -121,7 +128,3 @@ The course emphasizes **hands-on learning** through labs and practical work, com
 3. Learn best practices for reproducibility, versioning, and collaboration in ML projects
 4. Develop skills in optimizing and deploying models for both cloud and edge environments
 5. Build practical MLOps capabilities for maintaining production ML systems
-
-## What This Course Is NOT
-
-This is **not** a theoretical machine learning or deep learning course. We assume basic ML knowledge and focus specifically on **practical tools and techniques** for building, deploying, and maintaining real-world AI systems.
