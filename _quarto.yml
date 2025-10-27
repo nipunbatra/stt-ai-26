@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CS 203: Software Tools and Techniques for AI"
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/nipunbatra/stt-ai-26
+  page-footer:
+    center: "CS 203 | IIT Gandhinagar | Jan-Apr 2026"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    link-external-newwindow: true

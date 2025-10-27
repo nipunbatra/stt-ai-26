@@ -1,0 +1,106 @@
+---
+title: "Software Tools and Techniques for AI"
+subtitle: "CS 203 | Jan–Apr 2026 | IIT Gandhinagar"
+---
+
+**Instructor:** Dr. Nipun Batra, Sustainability Lab
+**Credits:** L1.5 T0 P3 C4
+
+## Overview
+
+This course provides hands-on experience with software tools used by academicians and researchers for AI-related work. The focus is on **end-to-end ML systems**: from data collection and labeling, through model development and versioning, to deployment and continuous integration. Students will gain practical skills in building reproducible, scalable, and maintainable AI systems.
+
+The course prepares students with the necessary groundwork and exposure to the right mix of tools for modern machine learning operations (MLOps), covering the complete lifecycle of AI projects—from initial data acquisition to production deployment on both cloud and edge devices.
+
+## Course Topics
+
+### 1. Data Collection and Labeling
+
+- **Collecting Data:** Tools for logging/instrumenting sources (e.g., websites) to collect usage data
+- **Validating Data:** Data quality checks and validation pipelines
+- **Labeling Data:** Tools such as Label Studio to annotate datasets, methods such as Cohen Kappa inter-annotator agreement, snowball sampling, active learning for cost-effective data annotation
+- **Data Augmentation:** Techniques to expand training datasets
+
+### 2. Model and Code Reproducibility & Versioning
+
+- **Architecture and Hyperparameter Search:** Tools such as Weights & Biases for architecture and hyperparameter search; AutoML tools such as AutoGluon
+- **Model Checkpointing:** Tools such as MLFlow, Tensorboard/Weights & Biases for model/weights checkpointing
+- **Data Versioning:** Version control for datasets and artifacts
+
+### 3. Self-Contained Environments
+
+- **Containerization:** Tools such as Docker for managing released packages
+- **Cloud Platforms:** GCP/AWS/Azure for scalable deployment
+
+### 4. Run-Time Profiling and Optimization
+
+- Memory footprint analysis
+- Measuring GPU utilization and optimizing it
+- Performance bottleneck identification
+
+### 5. Continuous Integration/Deployment
+
+- **A/B Testing:** Experimental design and analysis
+- **Distribution and Covariate Shift:** Data version management and retraining to account for shifts
+- **Redeployment:** Strategies for updating models in production
+
+### 6. Deployment on Constrained Devices
+
+- **Model Optimization:** Tools such as TF-lite
+- **Quantization:** Reducing model size while maintaining performance
+- **Edge Deployment:** Strategies for resource-constrained environments
+
+## Course Structure (14 Weeks)
+
+| **Weeks** | **Topic** | **Focus** |
+|-----------|-----------|-----------|
+| 1–2 | **Data Collection & Labeling** | Instrumentation, annotation tools, active learning for efficient labeling |
+| 3–4 | **Reproducibility & Versioning** | Experiment tracking, hyperparameter search, model checkpointing, data versioning |
+| 5–6 | **Containerization & Cloud** | Docker, cloud platforms (GCP/AWS/Azure), scalable deployments |
+| 7–8 | **Profiling & Optimization** | Memory profiling, GPU utilization, performance tuning |
+| 9–11 | **CI/CD & Model Monitoring** | A/B testing, distribution shift detection, automated retraining |
+| 12–14 | **Edge Deployment** | Model compression, quantization, TF-lite, deployment on constrained devices |
+
+## Grading
+
+| **Component** | **Weight** |
+|---------------|------------|
+| Assignments (3–4) | 30% |
+| Lab Work & Participation | 20% |
+| Final Project (proposal + report + demo) | 40% |
+| Quizzes/Mid-term | 10% |
+
+## Example Projects
+
+- End-to-end ML pipeline for a real-world application with complete MLOps setup
+- Automated data collection and labeling system with active learning
+- Model deployment pipeline with A/B testing and automated retraining
+- Edge deployment of deep learning models on resource-constrained devices
+- MLOps infrastructure setup with monitoring and alerting systems
+
+## Prerequisites
+
+- **Required:** ES112 (Computing)
+- **Preferred:** Basic understanding of machine learning concepts
+
+## Textbooks & References
+
+1. Murphy, K.P., 2022. Probabilistic machine learning: Advanced topics. MIT press.
+2. Murphy, K.P., 2022. Probabilistic machine learning: an introduction. MIT press
+3. Prince, S.J., 2023. Understanding Deep Learning. MIT PRESS.
+4. Gift, Noah, and Alfredo Deza. Practical MLOps. "O'Reilly Media, Inc.", 2021.
+5. Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing by Ron Kohavi, Diane Tang, Ya Xu
+6. Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. "O'Reilly Media, Inc.", 2022.
+7. CS 329S course from Stanford University: [https://stanford-cs329s.github.io/syllabus.html](https://stanford-cs329s.github.io/syllabus.html)
+
+## Learning Outcomes
+
+1. Gain hands-on experience with software tools used by academicians and researchers for AI-related work
+2. Understand the complete lifecycle of ML systems from data collection to deployment
+3. Learn best practices for reproducibility, versioning, and collaboration in ML projects
+4. Develop skills in optimizing and deploying models for both cloud and edge environments
+5. Build practical MLOps capabilities for maintaining production ML systems
+
+## What This Course Is NOT
+
+This is **not** a theoretical machine learning or deep learning course. We assume basic ML knowledge and focus specifically on **practical tools and techniques** for building, deploying, and maintaining real-world AI systems.
