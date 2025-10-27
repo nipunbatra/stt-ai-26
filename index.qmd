@@ -6,11 +6,6 @@ subtitle: "CS 203 | Jan–Apr 2026 | IIT Gandhinagar"
 **Instructor:** Dr. Nipun Batra, Sustainability Lab
 **Credits:** L1.5 T0 P3 C4
 
-::: {.callout-note icon=false}
-## 📋 Course Information Status
-
-**Note:** This course outline is **tentative** and subject to change. The grading policy, schedule, topics, and assessment components may be adjusted based on class needs and feedback. Any updates will be communicated through the course Slack channel.
-:::
 
 ## Overview
 
@@ -68,6 +63,12 @@ The course prepares students with the necessary groundwork and exposure to the r
 | 12–14 | **Edge Deployment** | Model compression, quantization, TF-lite, deployment on constrained devices |
 
 ## Grading Policy & Schedule
+
+::: {.callout-warning icon=false}
+## ⚠️ Grading Policy - Tentative
+
+**Note:** The grading policy below is **tentative** and subject to change based on class needs and feedback. Any updates will be communicated through the course Slack channel.
+:::
 
 ::: {.callout-tip icon=false}
 ## 📊 Assessment Breakdown
