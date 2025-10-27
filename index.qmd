@@ -74,13 +74,7 @@ The course prepares students with the necessary groundwork and exposure to the r
 ::: {.callout-warning icon=false}
 ## ⚠️ Grading Policy - Tentative
 
-**Note:** The grading policy below is **tentative** and subject to change based on class needs and feedback. Any updates will be communicated through the course Slack channel.
-:::
-
-::: {.callout-tip icon=false}
-## 📊 Assessment Breakdown
-
-The course emphasizes **hands-on learning** through labs and practical work, complemented by knowledge verification through quizzes.
+**Note:** The grading policy below is **tentative** and will be finalized before the first day of lectures. Any updates will be communicated through the course Slack channel.
 :::
 
 | **Component** | **Weight** | **Details** |
