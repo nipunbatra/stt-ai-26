@@ -6,6 +6,12 @@ subtitle: "CS 203 | Jan–Apr 2026 | IIT Gandhinagar"
 **Instructor:** Dr. Nipun Batra, Sustainability Lab
 **Credits:** L1.5 T0 P3 C4
 
+::: {.callout-note icon=false}
+## 📋 Course Information Status
+
+**Note:** This course outline is **tentative** and subject to change. The grading policy, schedule, topics, and assessment components may be adjusted based on class needs and feedback. Any updates will be communicated through the course Slack channel.
+:::
+
 ## Overview
 
 This course provides hands-on experience with software tools used by academicians and researchers for AI-related work. The focus is on **end-to-end ML systems**: from data collection and labeling, through model development and versioning, to deployment and continuous integration. Students will gain practical skills in building reproducible, scalable, and maintainable AI systems.
@@ -61,14 +67,28 @@ The course prepares students with the necessary groundwork and exposure to the r
 | 9–11 | **CI/CD & Model Monitoring** | A/B testing, distribution shift detection, automated retraining |
 | 12–14 | **Edge Deployment** | Model compression, quantization, TF-lite, deployment on constrained devices |
 
-## Grading
+## Grading Policy & Schedule
 
-| **Component** | **Weight** |
-|---------------|------------|
-| Assignments (3–4) | 30% |
-| Lab Work & Participation | 20% |
-| Final Project (proposal + report + demo) | 40% |
-| Quizzes/Mid-term | 10% |
+::: {.callout-tip icon=false}
+## 📊 Assessment Breakdown
+
+The course emphasizes **hands-on learning** through labs and practical work, complemented by knowledge verification through quizzes.
+:::
+
+| **Component** | **Weight** | **Details** |
+|---------------|------------|-------------|
+| **Lab Assignments** | **50%** | Weekly/bi-weekly hands-on labs with tools and techniques |
+| **Video + Blog Posts** | **20%** | Document your learning through tutorial videos and blog posts |
+| **Quizzes** | **20%** | Best *n* out of *n+1* quizzes (drop lowest score) |
+| **Attendance** | **6%** | Regular attendance (not surprise-based) |
+| **Participation** | **4%** | Active engagement in class and on Slack |
+
+### Assessment Philosophy
+
+- **Labs:** Practical, hands-on work with real tools (Docker, MLFlow, Weights & Biases, etc.)
+- **Video + Blog:** Share knowledge by creating tutorials—learn by teaching!
+- **Quizzes:** Flexible grading—your lowest quiz score is automatically dropped
+- **Attendance:** Transparent 6% for showing up and being present (no surprises!)
 
 ## Example Projects
 
