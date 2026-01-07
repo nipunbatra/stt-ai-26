@@ -79,18 +79,33 @@ The course prepares students with the necessary groundwork and exposure to the r
 
 | **Component** | **Weight** | **Details** |
 |---------------|------------|-------------|
-| **Lab Assignments** | **50%** | Weekly/bi-weekly hands-on labs with tools and techniques |
-| **Video + Blog Posts** | **20%** | Document your learning through tutorial videos and blog posts |
-| **Quizzes** | **20%** | Best *n* out of *n+1* quizzes (drop lowest score) |
-| **Attendance** | **6%** | Regular attendance |
-| **Participation** | **4%** | Active engagement in class and on Slack |
+| **Lab Assignments + Viva** | **48%** | 4-5 hands-on assignments with viva voce (group size: TBD) |
+| **Quizzes** | **42%** | Best 3 out of 4 quizzes (14% each) |
+| **Attendance** | **10%** | See breakdown below |
+
+### Attendance Breakdown
+
+| Absences | Grade |
+|----------|-------|
+| ≤ 6 | 10% |
+| 7, 8 | 9% |
+| 9 | 8% |
+| 10 | 7% |
+| 11 | 5% |
+| 12-14 | 1% |
+| > 14 | 0% |
+
+It is the student's responsibility to ensure attendance is recorded on the biometric system. If attendance is not recorded, it will be considered as absent.
+
+There is no leave request system. If you miss a class, it will count as an absence. No need to inform the instructor or provide medical certificates, etc.
+
+In case a student has to miss 4 or more classes in a row due to an emergency, they can discuss with the instructor for special consideration.
 
 ### Assessment Philosophy
 
-- **Labs:** Practical, hands-on work with real tools (Docker, MLFlow, Weights & Biases, etc.)
-- **Video + Blog:** Share knowledge by creating tutorials—learn by teaching!
+- **Labs + Viva:** Practical, hands-on work with real tools (Docker, MLFlow, Weights & Biases, etc.) evaluated through submission and oral discussion
 - **Quizzes:** Flexible grading—your lowest quiz score is automatically dropped
-- **Attendance:** 6% for regular class attendance
+- **Attendance:** Graded based on number of absences (see table above)
 
 ## Example Projects
 
