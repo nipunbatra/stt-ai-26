@@ -4,7 +4,7 @@ title: "Lectures & Labs"
 
 ::: {.callout-tip}
 ## Course Playlist
-[YouTube Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECBhEeM1el_Ep2AEBOV1rRUN)
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECBg6Rs3JnMAJCSwYcr3Xq1r)
 :::
 
 ## Schedule
