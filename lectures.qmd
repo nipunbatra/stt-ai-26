@@ -14,5 +14,5 @@ title: "Lectures & Labs"
 | 7 Jan | Lecture | 1 | Data Collection | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week01-data-collection-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week01-data-collection-lecture.pdf) | [Video](https://www.youtube.com/watch?v=W76ktQa7BB8) |
 | 9 Jan | Lab | 1 | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
 | 10 Jan | Lecture | 2 | Data Validation | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week02-data-validation-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week02-data-validation-lecture.pdf) | |
-| | Lab | 1 | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
-| | Lab | 2 | Data Validation Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |
+| | Lab | 2 | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
+| | Lab | 3 | Data Validation Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |
