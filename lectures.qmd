@@ -1,0 +1,17 @@
+---
+title: "Lectures & Labs"
+---
+
+::: {.callout-tip}
+## Course Playlist
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECBhEeM1el_Ep2AEBOV1rRUN)
+:::
+
+## Schedule
+
+| Date | Type | Topic | Materials | Recording |
+|------|------|-------|-----------|-----------|
+| 7 Jan | Lecture | Data Collection | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week01-data-collection-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week01-data-collection-lecture.pdf) | [Video](https://www.youtube.com/watch?v=W76ktQa7BB8) |
+| 9 Jan | Lab | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
+| 10 Jan | Lab | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
+| | Lab | Data Validation Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |

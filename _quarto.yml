@@ -5,6 +5,11 @@ project:
 website:
   title: "CS 203: Software Tools and Techniques for AI"
   navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: lectures.qmd
+        text: Lectures
     right:
       - icon: github
         href: https://github.com/nipunbatra/stt-ai-26
