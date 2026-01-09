@@ -63,7 +63,9 @@ No leave request system. Missed classes count as absences. For emergencies (4+ c
 
 ## References
 
-1. Gift & Deza. *Practical MLOps*. O'Reilly, 2021.
-2. Kohavi, Tang, Xu. *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing*.
-3. Géron. *Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow*. O'Reilly, 2022.
-4. [Stanford CS 329S](https://stanford-cs329s.github.io/syllabus.html)
+1. Murphy, K.P. *Probabilistic Machine Learning: An Introduction*. MIT Press, 2022.
+2. Murphy, K.P. *Probabilistic Machine Learning: Advanced Topics*. MIT Press, 2022.
+3. Gift & Deza. *Practical MLOps*. O'Reilly, 2021.
+4. Kohavi, Tang, Xu. *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing*.
+5. Géron. *Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow*. O'Reilly, 2022.
+6. [Stanford CS 329S](https://stanford-cs329s.github.io/syllabus.html)
