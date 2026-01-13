@@ -4,7 +4,9 @@ title: "Deadlines & Timeline"
 
 ## Upcoming Deadlines
 
+```{=html}
 <div id="deadlines-table"></div>
+```
 
 ## Calendar View
 
@@ -21,8 +23,13 @@ title: "Deadlines & Timeline"
         border-bottom: 1px solid #dee2e6;
     }
     #deadlines-table th {
-        background: #f8f9fa;
+        background: #343a40 !important;
+        color: #fff !important;
         font-weight: 600;
+        border-bottom: 2px solid #343a40 !important;
+    }
+    #deadlines-table thead {
+        display: table-header-group !important;
     }
     #deadlines-table .type-deadline { color: #dc3545; font-weight: 500; }
     #deadlines-table .type-quiz { color: #fd7e14; font-weight: 500; }
