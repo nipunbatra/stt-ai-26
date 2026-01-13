@@ -203,6 +203,14 @@ title: "Deadlines & Timeline"
     let currentDate = new Date();
     const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
+    // Format date as YYYY-MM-DD in local timezone (avoids UTC shift)
+    function formatDateLocal(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    }
+
     // Load deadlines from JSON
     fetch('deadlines.json')
         .then(response => response.json())
@@ -261,7 +269,7 @@ title: "Deadlines & Timeline"
             const cellDate = new Date(startDate);
             cellDate.setDate(startDate.getDate() + i);
 
-            const dateStr = cellDate.toISOString().split('T')[0];
+            const dateStr = formatDateLocal(cellDate);
             const dayEvents = deadlinesByDate[dateStr] || [];
 
             const cell = document.createElement('div');
