@@ -10,6 +10,8 @@ website:
         text: Home
       - href: lectures.qmd
         text: Lectures
+      - href: deadlines.qmd
+        text: Deadlines
     right:
       - icon: github
         href: https://github.com/nipunbatra/stt-ai-26

@@ -1,0 +1,17 @@
+[
+  {"date": "2026-01-13", "title": "Assignment 1 Released", "type": "release"},
+  {"date": "2026-01-22", "title": "Assignment 1 Due", "type": "deadline"},
+  {"date": "2026-01-30", "title": "Quiz 1", "type": "quiz"},
+  {"date": "2026-02-06", "title": "Assignment 2 Released", "type": "release"},
+  {"date": "2026-02-16", "title": "Assignment 2 Due", "type": "deadline"},
+  {"date": "2026-02-18", "title": "Quiz 2 (tentative)", "type": "quiz"},
+  {"date": "2026-02-20", "title": "Examination 1 Begins", "type": "exam"},
+  {"date": "2026-02-27", "title": "Examination 1 Ends", "type": "exam"},
+  {"date": "2026-02-28", "title": "Mid-Sem Recess Begins", "type": "recess"},
+  {"date": "2026-03-08", "title": "Mid-Sem Recess Ends", "type": "recess"},
+  {"date": "2026-03-22", "title": "Assignment 3 Due", "type": "deadline"},
+  {"date": "2026-03-30", "title": "Quiz 3", "type": "quiz"},
+  {"date": "2026-04-15", "title": "Assignment 4 Due", "type": "deadline"},
+  {"date": "2026-04-16", "title": "Last Date for Course Drop", "type": "info"},
+  {"date": "2026-04-21", "title": "Quiz 4", "type": "quiz"}
+]
