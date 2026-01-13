@@ -13,6 +13,8 @@ website:
       - href: deadlines.qmd
         text: Deadlines
     right:
+      - href: https://nipunbatra.github.io
+        text: Instructor
       - icon: github
         href: https://github.com/nipunbatra/stt-ai-26
   page-footer:
