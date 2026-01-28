@@ -19,4 +19,5 @@ title: "Lectures & Labs"
 | | Lab | 3 | Data Validation Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |
 | 12 Jan | Lab | | Data Validation Lab (continued) | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |
 | 14 Jan | | | *Holiday* | | |
-| 16 Jan | Lecture | 4 | Data Labeling | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week03-data-labeling-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week03-data-labeling-lecture.pdf) | [Video](https://www.youtube.com/watch?v=9VXsRn33IQg) |
+| 16 Jan | Lecture | 4 | Data Labeling | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week03-data-labeling-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week03-data-labeling-lecture.pdf) | [Video](https://www.youtube.com/watch?v=vESABn1eAOI) |
+| 28 Jan | Lecture | 5 | Optimizing Data Labeling: Active Learning, Weak Supervision & LLMs | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week04-optimizing-labeling-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week04-optimizing-labeling-lecture.pdf) | [Video](https://www.youtube.com/watch?v=sw_aqSIWBZc) |
