@@ -4,22 +4,21 @@
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
 $font-family-monospace: "SF Mono", SFMono-Regular, ui-monospace, Menlo, monospace;
 
-// Colors - indigo accent on dark
-$body-bg: #0a0a0a;
+// Colors - Apple dark palette
+$body-bg: #000000;
 $body-color: #f5f5f7;
-$link-color: #7d7aff;
-$link-hover-color: #9b99ff;
-$primary: #7d7aff;
+$link-color: #30d158;
+$link-hover-color: #4ae06a;
 
 // Navbar
-$navbar-bg: rgba(10, 10, 10, 0.8);
+$navbar-bg: rgba(0, 0, 0, 0.8);
 $navbar-fg: #f5f5f7;
 
 // Sizing
 $font-size-base: 1.05rem;
 $line-height-base: 1.6;
 $headings-font-weight: 600;
-$border-radius: 14px;
+$border-radius: 12px;
 
 // Table
 $table-striped-bg: rgba(255, 255, 255, 0.03);
@@ -37,21 +36,20 @@ body {
 .navbar {
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
 
 .navbar-brand {
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   letter-spacing: -0.02em;
 }
 
-// Content
+// Content width and spacing
 .content {
-  max-width: 800px;
+  max-width: 780px;
 }
 
 main {
@@ -62,29 +60,20 @@ main {
 h1, .h1 {
   font-weight: 700;
   letter-spacing: -0.03em;
-  font-size: 2.2rem;
-  margin-bottom: 0.8rem;
-  border-bottom: none;
-  padding-bottom: 0;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
 }
 
 h2, .h2 {
   font-weight: 600;
   letter-spacing: -0.02em;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-top: 2.5rem;
-  margin-bottom: 0.8rem;
-  border-bottom: none;
-  padding-bottom: 0;
+  margin-bottom: 1rem;
 }
 
-h3, .h3 {
-  font-weight: 600;
+p.subtitle {
   font-size: 1.2rem;
-}
-
-p.subtitle, .subtitle {
-  font-size: 1.15rem;
   color: #a1a1a6;
   font-weight: 400;
 }
@@ -96,66 +85,40 @@ a {
 
   &:hover {
     text-decoration: none;
-    color: $link-hover-color;
   }
 }
 
-// Tables - dark card style
+// Tables - clean Apple dark style
 .table {
   border: none;
-  border-radius: 14px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
 
   thead th {
     background: #1c1c1e;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: 600;
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     color: #a1a1a6;
     padding: 12px 16px;
   }
 
   td {
     padding: 12px 16px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     vertical-align: middle;
   }
 
   tbody tr:hover {
-    background: rgba(125, 122, 255, 0.08);
+    background: rgba(48, 209, 88, 0.08);
     transition: background 0.2s ease;
   }
 
   tbody tr:last-child td {
     border-bottom: none;
-  }
-}
-
-table:not(.table) {
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
-
-  th {
-    background: #1c1c1e;
-    color: #a1a1a6;
-    font-size: 0.82rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-    padding: 12px 16px;
-  }
-
-  td {
-    padding: 12px 16px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  }
-
-  tr:hover {
-    background: rgba(125, 122, 255, 0.08);
   }
 }
 
@@ -175,23 +138,8 @@ blockquote {
   border-left: 3px solid $link-color;
   padding: 0.5rem 1.2rem;
   color: #a1a1a6;
-  background: rgba(125, 122, 255, 0.05);
-  border-radius: 0 10px 10px 0;
-}
-
-// Code
-code {
-  background-color: rgba(125, 122, 255, 0.1);
-  padding: 2px 7px;
-  border-radius: 6px;
-  font-size: 0.88em;
-}
-
-pre {
-  background-color: #1c1c1e;
-  border-radius: 12px;
-  padding: 1.2em;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(48, 209, 88, 0.05);
+  border-radius: 0 8px 8px 0;
 }
 
 // Lists
@@ -203,14 +151,7 @@ ul, ol {
   }
 }
 
-// Footer
-.nav-footer {
-  font-size: 0.85rem;
-  color: #a1a1a6;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-// Hide Quarto's default slider toggle, show moon/sun
+// Hide Quarto's default slider toggle completely
 .quarto-color-scheme-toggle.quarto-navigation-tool {
   border: none !important;
   background: none !important;
@@ -228,28 +169,28 @@ ul, ol {
     display: none !important;
   }
 
+  // Moon icon (default state)
   width: 36px;
   height: 36px;
   display: flex !important;
   align-items: center;
   justify-content: center;
-  // Filled moon
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%237d7aff' stroke='none'%3E%3Cpath d='M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z'%3E%3C/path%3E%3C/svg%3E") !important;
-  background-size: 22px 22px !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f5f5f7' stroke='none'%3E%3Cpath d='M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z'%3E%3C/path%3E%3C/svg%3E") !important;
+  background-size: 24px 24px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: transform 0.4s ease;
 
   &:hover {
-    transform: scale(1.25) rotate(-20deg);
+    transform: scale(1.2) rotate(-12deg);
   }
 
+  // Sun icon when in dark/alternate mode
   &.alternate {
-    // Filled sun
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%237d7aff' stroke='none'%3E%3Ccircle cx='12' cy='12' r='5'/%3E%3Cg stroke='%237d7aff' stroke-width='2' stroke-linecap='round'%3E%3Cline x1='12' y1='1' x2='12' y2='4'/%3E%3Cline x1='12' y1='20' x2='12' y2='23'/%3E%3Cline x1='4.22' y1='4.22' x2='6.34' y2='6.34'/%3E%3Cline x1='17.66' y1='17.66' x2='19.78' y2='19.78'/%3E%3Cline x1='1' y1='12' x2='4' y2='12'/%3E%3Cline x1='20' y1='12' x2='23' y2='12'/%3E%3Cline x1='4.22' y1='19.78' x2='6.34' y2='17.66'/%3E%3Cline x1='17.66' y1='6.34' x2='19.78' y2='4.22'/%3E%3C/g%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f5f5f7' stroke='none'%3E%3Ccircle cx='12' cy='12' r='5'/%3E%3Cg stroke='%23f5f5f7' stroke-width='2' stroke-linecap='round'%3E%3Cline x1='12' y1='1' x2='12' y2='4'/%3E%3Cline x1='12' y1='20' x2='12' y2='23'/%3E%3Cline x1='4.22' y1='4.22' x2='6.34' y2='6.34'/%3E%3Cline x1='17.66' y1='17.66' x2='19.78' y2='19.78'/%3E%3Cline x1='1' y1='12' x2='4' y2='12'/%3E%3Cline x1='20' y1='12' x2='23' y2='12'/%3E%3Cline x1='4.22' y1='19.78' x2='6.34' y2='17.66'/%3E%3Cline x1='17.66' y1='6.34' x2='19.78' y2='4.22'/%3E%3C/g%3E%3C/svg%3E") !important;
 
     &:hover {
-      transform: scale(1.25) rotate(25deg);
+      transform: scale(1.2) rotate(20deg);
     }
   }
 }
