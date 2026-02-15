@@ -25,9 +25,9 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - custom.scss
-    css: styles.css
+      light: [cosmo, custom-light.scss]
+      dark: [cosmo, custom-dark.scss]
     toc: true
     toc-depth: 3
+    smooth-scroll: true
     link-external-newwindow: true
