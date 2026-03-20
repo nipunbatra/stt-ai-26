@@ -25,9 +25,13 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, custom-light.scss]
-      dark: [cosmo, custom-dark.scss]
+      light: [litera, custom-light.scss]
+      dark: [litera, custom-dark.scss]
+    mainfont: "Roboto"
+    highlight-style: a11y-dark
     toc: true
     toc-depth: 3
     smooth-scroll: true
     link-external-newwindow: true
+    code-copy: true
+    code-overflow: wrap
