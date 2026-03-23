@@ -9,9 +9,9 @@
   {"date": "2026-02-27", "title": "Examination 1 Ends", "type": "exam"},
   {"date": "2026-02-28", "title": "Mid-Sem Recess Begins", "type": "recess"},
   {"date": "2026-03-08", "title": "Mid-Sem Recess Ends", "type": "recess"},
-  {"date": "2026-03-22", "title": "Assignment 3 Due", "type": "deadline"},
-  {"date": "2026-03-30", "title": "Quiz 3", "type": "quiz"},
-  {"date": "2026-04-15", "title": "Assignment 4 Due", "type": "deadline"},
+  {"date": "2026-03-23", "title": "Assignment 3 Due", "type": "deadline"},
+  {"date": "2026-04-01", "title": "Quiz 3", "type": "quiz"},
+  {"date": "2026-04-14", "title": "Assignment 4 Due", "type": "deadline"},
   {"date": "2026-04-16", "title": "Last Date for Course Drop", "type": "info"},
-  {"date": "2026-04-21", "title": "Quiz 4", "type": "quiz"}
+  {"date": "2026-04-24", "title": "Quiz 4 (End Semester Exam, Apr 24 – May 1, exact date TBD)", "type": "quiz"}
 ]
