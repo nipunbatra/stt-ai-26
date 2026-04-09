@@ -176,10 +176,21 @@ ul, ol {
   font-size: 0.85rem;
 }
 
-// Dark/light toggle — sun icon in dark mode
-.quarto-color-scheme-toggle .bi::before {
-  content: "\f5a1";  /* bi-sun-fill */
-  font-size: 1rem;
+// Dark/light toggle — replace Quarto's slider with sun icon
+.quarto-color-scheme-toggle .bi::before,
+.quarto-color-scheme-toggle:not(.alternate) .bi::before,
+.quarto-color-scheme-toggle.alternate .bi::before,
+.quarto-color-scheme-toggle.top-right .bi::before,
+.quarto-color-scheme-toggle:not(.alternate).top-right .bi::before,
+.quarto-color-scheme-toggle.alternate.top-right .bi::before {
+  content: "\f5a1" !important;  /* bi-sun-fill */
+  font-family: "bootstrap-icons" !important;
+  background-image: none !important;
+  background: none !important;
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: 1rem !important;
 }
 
 .quarto-color-scheme-toggle {
