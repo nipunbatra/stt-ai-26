@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures & Labs",
+    "section": "",
+    "text": "Course Playlist\n\n\n\nYouTube Playlist"
+  },
+  {
+    "objectID": "lectures.html#schedule",
+    "href": "lectures.html#schedule",
+    "title": "Lectures & Labs",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nDate\nType\n#\nTopic\nMaterials\nRecording\n\n\n\n\n7 Jan\nLecture\n1\nData Collection\nHTML | PDF | API Demo\nVideo\n\n\n9 Jan\nLab\n1\nData Collection Lab\nHTML\n\n\n\n10 Jan\nLecture\n2\nData Collection continued (HTML parsing)\nDOM Viewer\nVideo\n\n\n\nLecture\n3\nData Validation\nHTML | PDF\nVideo\n\n\n\nLab\n2\nData Collection Lab\nHTML\n\n\n\n\nLab\n3\nData Validation Lab\nHTML\n\n\n\n12 Jan\nLab\n4\nData Validation Lab (continued)\nHTML\n\n\n\n14 Jan\n\n\nHoliday\n\n\n\n\n16 Jan\nLecture\n4\nData Labeling\nHTML | PDF\nVideo\n\n\n27 Jan\nLab\n5\nData Labeling Lab\nHTML\n\n\n\n28 Jan\nLecture\n5\nOptimizing Data Labeling: Active Learning, Weak Supervision & LLMs\nHTML | PDF\nVideo\n\n\n4 Feb\nLecture\n6\nData Augmentation\nHTML | PDF\nVideo\n\n\n11 Feb\nLecture\n7\nLLM APIs & Multimodal AI\nHTML | PDF\nVideo\n\n\n11 Mar\nLecture\n8\nModel Evaluation: Cross-Validation, Bias-Variance\nHTML | PDF\n\n\n\n18 Mar\nLecture\n9\nTuning, AutoML & Experiment Tracking\nHTML | PDF\n\n\n\n25 Mar\nLecture\n10\nReproducibility: Docker, Seeds & Tracking\nHTML | PDF | Docker Demos\n\n\n\n\nLecture\n11\nData Drift & Model Monitoring\nHTML | Notebook\n\n\n\n1 Apr\nLecture\n12\nProfiling & Quantization\nHTML | PDF | Colab Notebooks\n\n\n\n8 Apr\nLecture\n13\nBuilding AI Agents from Scratch\nHTML | PDF | Colab Notebook\n\n\n\n\nLecture\n14\nCourse Summary & What’s Next\nHTML | PDF\n\n\n\n\n\n\n\n\n\n\nAdditional Content (covered in labs)\n\n\n\n\n\n\n\n\nType\nTopic\nMaterials\n\n\n\n\nLab\nFrom Script to Web App\nHTML | PDF\n\n\nLab\nAPIs & Demos\nHTML | PDF"
+  },
+  {
+    "objectID": "deadlines.html#calendar-view",
+    "href": "deadlines.html#calendar-view",
+    "title": "Deadlines & Timeline",
+    "section": "Calendar View",
+    "text": "Calendar View\n\n\n\n    \n        ← Prev\n        \n        Next →\n    \n    \n\n\n\n    \n        \n        \n        Close"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Software Tools and Techniques for AI",
+    "section": "",
+    "text": "Instructor: Dr. Nipun Batra, Sustainability Lab Credits: L1.5 T0 P3 C4"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Software Tools and Techniques for AI",
+    "section": "Overview",
+    "text": "Overview\nThis course covers the complete software engineering stack for modern AI development. While most ML courses focus on algorithms, this course focuses on the engineering practices that make ML systems work in the real world—from data collection to production deployment."
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "Software Tools and Techniques for AI",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of this course, you will:\n\nBuild end-to-end ML systems — From data collection to production deployment\nChoose the right tools — Know which tool to use for any data/ML task\nWrite production code — Code that others can understand, maintain, and reproduce"
+  },
+  {
+    "objectID": "index.html#course-structure-15-weeks",
+    "href": "index.html#course-structure-15-weeks",
+    "title": "Software Tools and Techniques for AI",
+    "section": "Course Structure (15 Weeks)",
+    "text": "Course Structure (15 Weeks)\n\n\n\n\n\n\n\n\nPart\nWeeks\nTopics\n\n\n\n\nData Engineering\n1–5\nData collection, validation, labeling, augmentation\n\n\nModel Development\n6–11\nLLM APIs, training, reproducibility, deployment, CI/CD\n\n\nProduction\n12–15\nEdge deployment, profiling, monitoring"
+  },
+  {
+    "objectID": "index.html#grading",
+    "href": "index.html#grading",
+    "title": "Software Tools and Techniques for AI",
+    "section": "Grading",
+    "text": "Grading\n\n\n\nComponent\nWeight\n\n\n\n\nLab Assignments + Viva\n48%\n\n\nQuizzes (best 3 of 4)\n42%\n\n\nAttendance\n10%\n\n\n\n\nAttendance\n\n\n\nAbsences\nGrade\n\n\n\n\n≤ 6\n10%\n\n\n7–8\n9%\n\n\n9\n8%\n\n\n10\n7%\n\n\n11\n5%\n\n\n12–14\n1%\n\n\n&gt; 14\n0%\n\n\n\nNo leave request system. Missed classes count as absences. For emergencies (4+ consecutive classes), discuss with the instructor."
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Software Tools and Techniques for AI",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nRequired: ES112 (Computing)\nPreferred: Basic ML concepts"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Software Tools and Techniques for AI",
+    "section": "References",
+    "text": "References\n\nMurphy, K.P. Probabilistic Machine Learning: An Introduction. MIT Press, 2022.\nMurphy, K.P. Probabilistic Machine Learning: Advanced Topics. MIT Press, 2022.\nGift & Deza. Practical MLOps. O’Reilly, 2021.\nKohavi, Tang, Xu. Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing.\nGéron. Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow. O’Reilly, 2022.\nStanford CS 329S"
+  }
+]
