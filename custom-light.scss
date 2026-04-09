@@ -172,3 +172,26 @@ ul, ol {
   color: #666;
   font-size: 0.85rem;
 }
+
+// Dark/light toggle — sun/moon icon
+.quarto-color-scheme-toggle .bi::before {
+  content: "\f497";  /* bi-moon */
+  font-size: 1rem;
+}
+
+.quarto-color-scheme-toggle {
+  order: 10;
+  border: 1px solid rgba(51, 51, 51, 0.15);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.quarto-color-scheme-toggle:hover {
+  border-color: $link-color;
+  color: $link-color !important;
+}

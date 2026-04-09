@@ -175,3 +175,26 @@ ul, ol {
   color: #a0a0a0;
   font-size: 0.85rem;
 }
+
+// Dark/light toggle — sun icon in dark mode
+.quarto-color-scheme-toggle .bi::before {
+  content: "\f5a1";  /* bi-sun-fill */
+  font-size: 1rem;
+}
+
+.quarto-color-scheme-toggle {
+  order: 10;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.quarto-color-scheme-toggle:hover {
+  border-color: $link-color;
+  color: $link-color !important;
+}
