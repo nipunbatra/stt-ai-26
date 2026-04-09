@@ -40,5 +40,6 @@ title: "Lectures & Labs"
 | Type | Topic | Materials |
 |------|-------|-----------|
 | Lab | From Script to Web App | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week10-web-apps-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week10-web-apps-lecture.pdf) |
+| Lab | CI/CD & Automation | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week11-cicd-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week11-cicd-lecture.pdf) |
 | Lab | APIs & Demos | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week12-apis-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week12-apis-lecture.pdf) |
 :::
