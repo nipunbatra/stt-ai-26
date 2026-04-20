@@ -176,6 +176,129 @@ ul, ol {
   font-size: 0.85rem;
 }
 
+// Course stats card
+.course-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+
+  .stat {
+    flex: 1 1 160px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .stat-num {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $link-color;
+    line-height: 1.2;
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #a0a0a0;
+    margin-top: 0.15rem;
+  }
+}
+
+// Legend chips
+.legend {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.85rem;
+}
+
+.legend-chip {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.chip-lec, .tag-lec {
+  background: rgba(100, 160, 230, 0.18);
+  color: #89baee;
+}
+
+.chip-lab, .tag-lab {
+  background: rgba(100, 200, 130, 0.18);
+  color: #86d9a0;
+}
+
+.chip-hol, .tag-hol {
+  background: rgba(220, 100, 100, 0.18);
+  color: #e89090;
+}
+
+// Schedule table — row tinting by type
+table.schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.92rem;
+  margin: 1rem 0 2rem;
+
+  thead th {
+    background: rgba(255, 255, 255, 0.05);
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #a0a0a0;
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  tr.row-lec td { background: rgba(100, 160, 230, 0.06); }
+  tr.row-lec:hover td { background: rgba(100, 160, 230, 0.14); }
+
+  tr.row-lab td { background: rgba(100, 200, 130, 0.06); }
+  tr.row-lab:hover td { background: rgba(100, 200, 130, 0.14); }
+
+  tr.row-hol td {
+    background: rgba(220, 100, 100, 0.05);
+    color: #999;
+    font-style: italic;
+  }
+}
+
+.tag-lec, .tag-lab, .tag-hol {
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+
 // Dark/light toggle — replace Quarto's slider with sun icon
 .quarto-color-scheme-toggle .bi::before,
 .quarto-color-scheme-toggle:not(.alternate) .bi::before,

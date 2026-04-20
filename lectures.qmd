@@ -7,39 +7,61 @@ title: "Lectures & Labs"
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLftoLyLEwECBg6Rs3JnMAJCSwYcr3Xq1r)
 :::
 
+```{=html}
+<div class="course-stats">
+<div class="stat"><span class="stat-num">14</span><span class="stat-label">Lectures</span></div>
+<div class="stat"><span class="stat-num">10</span><span class="stat-label">Labs</span></div>
+<div class="stat"><span class="stat-num">Jan 7 – Apr 8</span><span class="stat-label">Semester</span></div>
+</div>
+
+<div class="legend">
+<span class="legend-chip chip-lec">Lecture</span>
+<span class="legend-chip chip-lab">Lab</span>
+<span class="legend-chip chip-hol">Holiday</span>
+</div>
+```
+
 ## Schedule
 
-| Date | Type | # | Topic | Materials | Recording |
-|------|------|---|-------|-----------|-----------|
-| 7 Jan | Lecture | 1 | Data Collection | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week01-data-collection-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week01-data-collection-lecture.pdf) \| [API Demo](https://huggingface.co/spaces/Nipun/api-testing) | [Video](https://www.youtube.com/watch?v=W76ktQa7BB8) |
-| 9 Jan | Lab | 1 | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
-| 10 Jan | Lecture | 2 | Data Collection continued (HTML parsing) | [DOM Viewer](https://nipunbatra.github.io/dom-tree-viewer/) | [Video](https://www.youtube.com/watch?v=g07rDAr7ueY) |
-| | Lecture | 3 | Data Validation | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week02-data-validation-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week02-data-validation-lecture.pdf) | [Video](https://www.youtube.com/watch?v=8_pptikTX0g) |
-| | Lab | 2 | Data Collection Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html) | |
-| | Lab | 3 | Data Validation Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |
-| 12 Jan | Lab | 4 | Data Validation Lab (continued) | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html) | |
-| 14 Jan | | | *Holiday* | | |
-| 16 Jan | Lecture | 4 | Data Labeling | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week03-data-labeling-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week03-data-labeling-lecture.pdf) | [Video](https://www.youtube.com/watch?v=vESABn1eAOI) |
-| 27 Jan | Lab | 5 | Data Labeling Lab | [HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week03-data-labeling-lab.html) | |
-| 28 Jan | Lecture | 5 | Optimizing Data Labeling: Active Learning, Weak Supervision & LLMs | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week04-optimizing-labeling-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week04-optimizing-labeling-lecture.pdf) | [Video](https://www.youtube.com/watch?v=sw_aqSIWBZc) |
-| 4 Feb | Lecture | 6 | Data Augmentation | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week05-data-augmentation-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week05-data-augmentation-lecture.pdf) | [Video](https://www.youtube.com/watch?v=32bknvkw60o) |
-| 11 Feb | Lecture | 7 | LLM APIs & Multimodal AI | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week06-llm-apis-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week06-llm-apis-lecture.pdf) | [Video](https://www.youtube.com/watch?v=EAUBdpXARbY) |
-| 11 Mar | Lecture | 8 | Model Evaluation: Cross-Validation, Bias-Variance | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week07-model-development-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week07-model-development-lecture.pdf) | |
-| 18 Mar | Lecture | 9 | Tuning, AutoML & Experiment Tracking | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week08-tuning-tracking-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week08-tuning-tracking-lecture.pdf) | |
-| 25 Mar | Lecture | 10 | Reproducibility: Docker, Seeds & Tracking | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week09-reproducibility-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week09-reproducibility-lecture.pdf) \| [Docker Demos](https://github.com/nipunbatra/docker-ml-demos) | |
-| | Lecture | 11 | Data Drift & Model Monitoring | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week10-data-drift-lecture.html) \| [Notebook](https://nipunbatra.github.io/stt-ai-teaching/lecture-demos/week10/data_drift_notebook.html) | |
-| 1 Apr | Lecture | 12 | Profiling & Quantization | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week11-profiling-quantization-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week11-profiling-quantization-lecture.pdf) \| [Colab Notebooks](https://github.com/nipunbatra/stt-ai-teaching/tree/master/lecture-demos/week11/colab-notebooks) | |
-| 8 Apr | Lecture | 13 | Building AI Agents from Scratch | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week12-agents-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week12-agents-lecture.pdf) \| [Colab Notebook](https://colab.research.google.com/github/nipunbatra/stt-ai-teaching/blob/master/lecture-demos/week12/colab-notebooks/01-agents-from-scratch.ipynb) | |
-| | Lecture | 14 | Course Summary & What's Next | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week13-course-summary-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week13-course-summary-lecture.pdf) | |
-
-: {.striped .hover}
+<table class="schedule-table">
+<thead>
+<tr><th>Date</th><th>Type</th><th>#</th><th>Topic</th><th>Materials</th><th>Recording</th></tr>
+</thead>
+<tbody>
+<tr class="row-lec"><td>7 Jan</td><td><span class="tag-lec">Lecture</span></td><td>1</td><td>Data Collection</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week01-data-collection-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week01-data-collection-lecture.pdf) · [API Demo](https://huggingface.co/spaces/Nipun/api-testing)</td><td>[Video](https://www.youtube.com/watch?v=W76ktQa7BB8)</td></tr>
+<tr class="row-lab"><td>9 Jan</td><td><span class="tag-lab">Lab</span></td><td>1</td><td>Data Collection Lab</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html)</td><td></td></tr>
+<tr class="row-lec"><td>10 Jan</td><td><span class="tag-lec">Lecture</span></td><td>2</td><td>Data Collection continued (HTML parsing)</td><td>[DOM Viewer](https://nipunbatra.github.io/dom-tree-viewer/)</td><td>[Video](https://www.youtube.com/watch?v=g07rDAr7ueY)</td></tr>
+<tr class="row-lec"><td></td><td><span class="tag-lec">Lecture</span></td><td>3</td><td>Data Validation</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week02-data-validation-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week02-data-validation-lecture.pdf)</td><td>[Video](https://www.youtube.com/watch?v=8_pptikTX0g)</td></tr>
+<tr class="row-lab"><td></td><td><span class="tag-lab">Lab</span></td><td>2</td><td>Data Collection Lab</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week01-data-collection-lab.html)</td><td></td></tr>
+<tr class="row-lab"><td></td><td><span class="tag-lab">Lab</span></td><td>3</td><td>Data Validation Lab</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html)</td><td></td></tr>
+<tr class="row-lab"><td>12 Jan</td><td><span class="tag-lab">Lab</span></td><td>4</td><td>Data Validation Lab (continued)</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week02-data-validation-lab.html)</td><td></td></tr>
+<tr class="row-hol"><td>14 Jan</td><td><span class="tag-hol">Holiday</span></td><td></td><td><em>Uttarayan / Makar Sankranti</em></td><td></td><td></td></tr>
+<tr class="row-lec"><td>16 Jan</td><td><span class="tag-lec">Lecture</span></td><td>4</td><td>Data Labeling</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week03-data-labeling-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week03-data-labeling-lecture.pdf)</td><td>[Video](https://www.youtube.com/watch?v=vESABn1eAOI)</td></tr>
+<tr class="row-lab"><td>27 Jan</td><td><span class="tag-lab">Lab</span></td><td>5</td><td>Data Labeling Lab</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week03-data-labeling-lab.html)</td><td></td></tr>
+<tr class="row-lec"><td>28 Jan</td><td><span class="tag-lec">Lecture</span></td><td>5</td><td>Optimizing Data Labeling: Active Learning, Weak Supervision & LLMs</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week04-optimizing-labeling-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week04-optimizing-labeling-lecture.pdf)</td><td>[Video](https://www.youtube.com/watch?v=sw_aqSIWBZc)</td></tr>
+<tr class="row-lab"><td></td><td><span class="tag-lab">Lab</span></td><td>6</td><td>Optimizing Labeling Lab</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/labs/week04-optimizing-labeling-lab.html)</td><td></td></tr>
+<tr class="row-lec"><td>4 Feb</td><td><span class="tag-lec">Lecture</span></td><td>6</td><td>Data Augmentation</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week05-data-augmentation-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week05-data-augmentation-lecture.pdf)</td><td>[Video](https://www.youtube.com/watch?v=32bknvkw60o)</td></tr>
+<tr class="row-lec"><td>11 Feb</td><td><span class="tag-lec">Lecture</span></td><td>7</td><td>LLM APIs & Multimodal AI</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week06-llm-apis-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week06-llm-apis-lecture.pdf)</td><td>[Video](https://www.youtube.com/watch?v=EAUBdpXARbY)</td></tr>
+<tr class="row-lec"><td>11 Mar</td><td><span class="tag-lec">Lecture</span></td><td>8</td><td>Model Evaluation: Cross-Validation, Bias-Variance</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week07-model-development-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week07-model-development-lecture.pdf)</td><td></td></tr>
+<tr class="row-lab"><td></td><td><span class="tag-lab">Lab</span></td><td>7</td><td>Cross-Validation Lab (sklearn + from scratch)</td><td>[Colab](https://colab.research.google.com/github/nipunbatra/stt-ai-teaching/blob/master/labs/week07-cross-validation-lab.ipynb) · [GitHub](https://github.com/nipunbatra/stt-ai-teaching/blob/master/labs/week07-cross-validation-lab.ipynb)</td><td></td></tr>
+<tr class="row-lec"><td>18 Mar</td><td><span class="tag-lec">Lecture</span></td><td>9</td><td>Tuning, AutoML & Experiment Tracking</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week08-tuning-tracking-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week08-tuning-tracking-lecture.pdf)</td><td></td></tr>
+<tr class="row-lab"><td></td><td><span class="tag-lab">Lab</span></td><td>8</td><td>Hyperparameter Tuning Lab (Grid / Random / Optuna)</td><td>[Colab](https://colab.research.google.com/github/nipunbatra/stt-ai-teaching/blob/master/labs/week08-hyperparameter-tuning-lab.ipynb) · [GitHub](https://github.com/nipunbatra/stt-ai-teaching/blob/master/labs/week08-hyperparameter-tuning-lab.ipynb)</td><td></td></tr>
+<tr class="row-lec"><td>25 Mar</td><td><span class="tag-lec">Lecture</span></td><td>10</td><td>Reproducibility: Docker, Seeds & Tracking</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week09-reproducibility-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week09-reproducibility-lecture.pdf) · [Docker Demos](https://github.com/nipunbatra/docker-ml-demos)</td><td></td></tr>
+<tr class="row-lab"><td>27 Mar</td><td><span class="tag-lab">Lab</span></td><td>9</td><td>Reproducibility Lab (Docker + Seeds + TrackIO)</td><td>[Colab](https://colab.research.google.com/github/nipunbatra/stt-ai-teaching/blob/master/labs/week09-reproducibility-lab.ipynb) · [GitHub](https://github.com/nipunbatra/stt-ai-teaching/blob/master/labs/week09-reproducibility-lab.ipynb)</td><td></td></tr>
+<tr class="row-lec"><td></td><td><span class="tag-lec">Lecture</span></td><td>11</td><td>Data Drift & Model Monitoring</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week10-data-drift-lecture.html) · [Notebook](https://nipunbatra.github.io/stt-ai-teaching/lecture-demos/week10/data_drift_notebook.html)</td><td></td></tr>
+<tr class="row-lec"><td>1 Apr</td><td><span class="tag-lec">Lecture</span></td><td>12</td><td>Profiling & Quantization</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week11-profiling-quantization-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week11-profiling-quantization-lecture.pdf) · [Colab Notebooks](https://github.com/nipunbatra/stt-ai-teaching/tree/master/lecture-demos/week11/colab-notebooks)</td><td></td></tr>
+<tr class="row-lab"><td></td><td><span class="tag-lab">Lab</span></td><td>10</td><td>Profiling & Quantization Lab</td><td>[Colab](https://colab.research.google.com/github/nipunbatra/stt-ai-teaching/blob/master/labs/week11-profiling-quantization-lab.ipynb) · [GitHub](https://github.com/nipunbatra/stt-ai-teaching/blob/master/labs/week11-profiling-quantization-lab.ipynb)</td><td></td></tr>
+<tr class="row-lec"><td>8 Apr</td><td><span class="tag-lec">Lecture</span></td><td>13</td><td>Building AI Agents from Scratch</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week12-agents-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week12-agents-lecture.pdf) · [Colab](https://colab.research.google.com/github/nipunbatra/stt-ai-teaching/blob/master/lecture-demos/week12/colab-notebooks/01-agents-from-scratch.ipynb)</td><td></td></tr>
+<tr class="row-lec"><td></td><td><span class="tag-lec">Lecture</span></td><td>14</td><td>Course Summary & What's Next</td><td>[HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week13-course-summary-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week13-course-summary-lecture.pdf)</td><td></td></tr>
+</tbody>
+</table>
 
 ::: {.callout-note collapse="true"}
 ## Additional Content (covered in labs)
 
 | Type | Topic | Materials |
 |------|-------|-----------|
-| Lab | From Script to Web App | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week10-web-apps-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week10-web-apps-lecture.pdf) |
-| Lab | CI/CD & Automation | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week11-cicd-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week11-cicd-lecture.pdf) |
-| Lab | APIs & Demos | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week12-apis-lecture.html) \| [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week12-apis-lecture.pdf) |
+| Lab | From Script to Web App | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week10-web-apps-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week10-web-apps-lecture.pdf) |
+| Lab | CI/CD & Automation | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week11-cicd-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week11-cicd-lecture.pdf) |
+| Lab | APIs & Demos | [HTML](https://nipunbatra.github.io/stt-ai-teaching/html/week12-apis-lecture.html) · [PDF](https://nipunbatra.github.io/stt-ai-teaching/pdf/week12-apis-lecture.pdf) |
 :::

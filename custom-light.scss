@@ -173,6 +173,129 @@ ul, ol {
   font-size: 0.85rem;
 }
 
+// Course stats card
+.course-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+
+  .stat {
+    flex: 1 1 160px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 0.9rem 1rem;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+  }
+
+  .stat-num {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $link-color;
+    line-height: 1.2;
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #666;
+    margin-top: 0.15rem;
+  }
+}
+
+// Legend chips
+.legend {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.85rem;
+}
+
+.legend-chip {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.chip-lec, .tag-lec {
+  background: #e3f0fb;
+  color: #1e5faa;
+}
+
+.chip-lab, .tag-lab {
+  background: #e6f5ea;
+  color: #2a7d3f;
+}
+
+.chip-hol, .tag-hol {
+  background: #fdecea;
+  color: #b3261e;
+}
+
+// Schedule table — row tinting by type
+table.schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.92rem;
+  margin: 1rem 0 2rem;
+
+  thead th {
+    background: #f8f9fa;
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #666;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  tr.row-lec td { background: rgba(30, 95, 170, 0.05); }
+  tr.row-lec:hover td { background: rgba(30, 95, 170, 0.10); }
+
+  tr.row-lab td { background: rgba(42, 125, 63, 0.06); }
+  tr.row-lab:hover td { background: rgba(42, 125, 63, 0.12); }
+
+  tr.row-hol td {
+    background: rgba(179, 38, 30, 0.04);
+    color: #999;
+    font-style: italic;
+  }
+}
+
+.tag-lec, .tag-lab, .tag-hol {
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+
 // Dark/light toggle — replace Quarto's slider with sun/moon icon
 .quarto-color-scheme-toggle .bi::before,
 .quarto-color-scheme-toggle:not(.alternate) .bi::before,
