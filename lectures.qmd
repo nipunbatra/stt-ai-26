@@ -13,7 +13,6 @@ title: "Lectures & Labs"
 <span class="legend-chip chip-lab">Lab</span>
 <span class="legend-chip chip-hol">Holiday</span>
 </div>
-<p class="schedule-note"><em>Lab sessions run twice a week (Tuesday &amp; Friday) with the same content across both days.</em></p>
 ```
 
 ## Schedule
